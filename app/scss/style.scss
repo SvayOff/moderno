@@ -359,5 +359,35 @@
         background-color: #fff;
     }
 }
-
 // end author
+// start tutorial
+.tutorial {
+    padding: 60px 0px 120px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+    }
+    &__item {
+        max-width: 370px;
+        width: 100%;
+    }
+}
+.tutorial__item {
+    &-image {
+        min-height: 270px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    &-title {
+        background-color: #f8f8f8;
+        font-size: 24px;
+        @include f700;
+        color: $bg;
+        text-align: center;
+        padding: 35px 10px;
+    }
+}
+
+// and tutorial
