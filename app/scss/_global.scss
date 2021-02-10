@@ -24,6 +24,7 @@ body {
     font-weight: 400;
     line-height: 24px;
     color: $text;
+    overflow-x: hidden;
 }
 .wrapper {
     display: flex;
@@ -35,6 +36,9 @@ body {
 }
 .footer {
     flex: 0 0 auto;
+}
+.header {
+    background-color: #fff;
 }
 .container {
     max-width: 1200px;
@@ -93,5 +97,17 @@ body {
         a {
             color: #b0bec5;
         }
+    }
+}
+.angle-right {
+    position: relative;
+    padding-left: 15px;
+    &::before {
+        content: "\f105";
+        font-family: "icomoon";
+        position: absolute;
+        color: $green;
+        left: 0;
+        font-size: 14px;
     }
 }
