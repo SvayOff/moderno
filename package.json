@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "@fancyapps/fancybox": "^3.5.7",
+    "animate.css": "^4.1.1",
     "browser-sync": "^2.26.13",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
@@ -21,7 +22,8 @@
     "ion-rangeslider": "^2.3.1",
     "jquery-form-styler": "^2.0.2",
     "mixitup": "^3.3.1",
-    "rateyo": "^3.0.0-alpha.2"
+    "rateyo": "^3.0.0-alpha.2",
+    "wow.js": "^1.2.2"
   },
   "dependencies": {
     "magnific-popup": "^1.1.0",
